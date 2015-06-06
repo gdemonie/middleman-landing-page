@@ -1,0 +1,72 @@
+
+#banner {
+  background-image: url(../images/golf-background.jpg);
+  color: $gray-darker;
+  padding: 15em 2em;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 650px;
+  font-family: $header-font;
+  opacity: 0.8;
+  h1 {
+  font-size: 6vmin;
+  };
+  h2 {
+  font-size: 4vmin;
+  color: white;
+  };
+  p {
+  font-size: 3vmin;
+  font-weight: 200;
+  };
+}
+
+.mc_embed_signup {
+  background:transparent;
+  clear:left;
+}
+
+#mailchimp-style-override {
+  padding-top: 5em;
+  padding-left: 0;
+  color: white;
+}
+
+
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+body {
+  font-family: $base-font;
+  color: $gray-dark;
+}
+h2, h3 {
+  font-family: $header-font;
+}
+
+
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.card {
+  padding: 10px;
+  font-weight: 200;
+  h2 {
+  font-size: 20px;
+  };
+  img {
+  height: 100px;
+  };
+}
+
+
