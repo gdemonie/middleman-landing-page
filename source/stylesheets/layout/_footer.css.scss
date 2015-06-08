@@ -1,18 +1,18 @@
 // Your footer style
 /* code your footer design here */
 #footer {
-  background-image: url(../images/golf-background.jpg);
+  background-image: url(../images/golf-background-light.jpg);
   background-size: cover;
   background-position: center center;
   padding: 2em 0;
-  height: 500px;
+  min-height: 500px;
   color: $gray-darker;
   opacity: 0.8;
 }
 
 #footer a {
   color: $gray-darker;
-  font-size: 3vmin;
+  font-size: 3vmax;
   transition: color 0.5s ease;
 }
 
@@ -21,9 +21,10 @@
 }
 
 #footer p {
- margin-top: 2em;
+  font-size: 3vmax;
+  margin-top: 2em;
 }
 
 #footer button {
-horizontal-align :center;
+
 }

@@ -6,7 +6,7 @@
     margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
     font-weight: bold;
     background-color: $navbar-btn-bg;
-    font-size: 18px;
+    font-size: 2vmax;
     padding-top: 0em;
     padding-right: 0.5em;
     padding-bottom: 0em;
@@ -19,13 +19,22 @@
 
 .scroll-btn {
   position: absolute;
-  width: 100px;
+  min-width: 100px;
   margin-left: -50px;
   bottom: 20px;
   left: 50%;
   text-align: center;
-  font-size: 60px;
+  font-size: 8vmax;
   color: white;
+}
+
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 
 .input-text {
